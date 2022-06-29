@@ -18,8 +18,8 @@
 
 from typing import Any, Mapping, Tuple
 
-import sweep
-#from bsuite import sweep
+#import sweep
+from bsuite import sweep
 from bsuite.environments import base
 from bsuite.experiments.bandit import bandit
 from bsuite.experiments.bandit_noise import bandit_noise

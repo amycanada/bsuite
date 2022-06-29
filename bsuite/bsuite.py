@@ -1,3 +1,4 @@
+
 # pylint: disable=g-bad-file-header
 # Copyright 2019 DeepMind Technologies Limited. All Rights Reserved.
 #
@@ -17,7 +18,8 @@
 
 from typing import Any, Mapping, Tuple
 
-from bsuite import sweep
+import sweep
+#from bsuite import sweep
 from bsuite.environments import base
 from bsuite.experiments.bandit import bandit
 from bsuite.experiments.bandit_noise import bandit_noise
